@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://g5omrmrfvvc8"]
+
+[ext_resource type="PackedScene" uid="uid://dawr5x4kwti4n" path="res://test/hitler/hitler.glb" id="1_oa5hg"]
+[ext_resource type="Material" uid="uid://cmwhpejpq3r54" path="res://test/hitler/hitler_mat.tres" id="2_7a2tl"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vh7sj"]
+radius = 0.4
+height = 1.75
+
+[node name="hitler" instance=ExtResource("1_oa5hg")]
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/1/rotation = Quaternion(-0.0298109, -4.01729e-18, -4.01729e-18, 0.999556)
+bones/1/scale = Vector3(1, 1, 1)
+bones/3/rotation = Quaternion(-0.104171, 0.179078, -0.950095, 0.233238)
+bones/4/rotation = Quaternion(0.197722, -0.0408162, -0.232201, 0.951484)
+bones/5/rotation = Quaternion(0.0131206, -1.48926e-08, -0.0369762, 0.99923)
+bones/6/rotation = Quaternion(-0.104171, -0.179078, 0.950095, 0.233238)
+bones/7/rotation = Quaternion(0.197722, 0.0408162, 0.232201, 0.951484)
+bones/8/rotation = Quaternion(0.0131206, 1.48926e-08, 0.0369762, 0.99923)
+bones/10/rotation = Quaternion(-0.661803, -5.03448e-07, 5.02291e-07, 0.749678)
+bones/12/rotation = Quaternion(-0.661803, 5.68987e-07, -4.44435e-07, 0.749678)
+
+[node name="mesh" parent="Armature/Skeleton3D" index="0"]
+surface_material_override/0 = ExtResource("2_7a2tl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85, 0)
+shape = SubResource("CapsuleShape3D_vh7sj")
+
+[node name="Camera3D" type="Camera3D" parent="." index="3"]
+current = true

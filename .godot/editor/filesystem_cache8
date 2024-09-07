@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1725679748
+game_idea.txt::TextFile::-1::1725438297::0::1::::<><>::
+icon.svg::CompressedTexture2D::5244807557289017538::1724944213::1725679750::1::::<><>::
+::res://test/::1725364454
+::res://test/hitler/::1725528339
+hitler.glb::PackedScene::7205765377683687039::1725528199::1725679753::1::::<><>::
+hitler.tscn::PackedScene::483936774090115921::1725528339::0::1::::<><>::uid://dawr5x4kwti4n::::res://test/hitler/hitler.glb<>uid://cmwhpejpq3r54::::res://test/hitler/hitler_mat.tres
+hitler_mat.tres::StandardMaterial3D::5660975832190518749::1725519685::0::1::::<><>::uid://coy0ybkxks42p::::res://test/hitler/hitler_tex.png
+hitler_tex.png::CompressedTexture2D::5806591097319483561::1725336721::1725679750::1::::<><>::
+sky.png::CompressedTexture2D::6621284156531509263::1719984075::1725679751::1::::<><>::

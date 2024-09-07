@@ -1,0 +1,6 @@
+* Hitler is the playable character.
+* Gameplay can be walking through a level avoiding, befooling, distracting and sometimes killing some guards.
+	The downside is that it will require lots of planning and also lots of modelling and level design.
+	Time consuming.
+	But it will look better.
+* It is also possible to create some basic gameplay mechanic with some procedurally generated levels.
